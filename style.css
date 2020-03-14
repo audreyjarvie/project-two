@@ -99,7 +99,7 @@ p{
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 4px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -112,7 +112,6 @@ p{
 
 body {
   font-weight: 100;
-  font-size: 6px;
   line-height: 30px;
   color: black;
   background: white;
@@ -271,10 +270,9 @@ fieldset {
   color: black;
 }
 .column p {
-  font-family: 'Playfair Display';
-  letter-spacing: 0.8em;
+  font-family: 'Open Sans';
   text-align: left;
-  font-size: 70px;
+  font-size: 18px;
 }
 
 
@@ -285,8 +283,8 @@ fieldset {
   position: relative;
   overflow: hidden;
   margin: 50px 0 75px;
-  width: 100%;
-  height: 500px;
+  width: 70%;
+  height: 800px;
 }
 
 .imageSlides {
@@ -294,8 +292,8 @@ fieldset {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 50%;
+  min-height: 50%;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   z-index: -1;
@@ -354,3 +352,4 @@ fieldset {
   background-color: rgba(255, 255, 255, 0.7);
   border: solid 2px rgba(255, 255, 255, 0.5);
 }
+

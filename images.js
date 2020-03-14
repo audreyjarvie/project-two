@@ -1,5 +1,4 @@
-function myFunction() {
-// IMAGE SLIDES & CIRCLES ARRAYS, & COUNTER
+  // IMAGE SLIDES & CIRCLES ARRAYS, & COUNTER
 var imageSlides = document.getElementsByClassName('imageSlides');
 var circles = document.getElementsByClassName('circle');
 var leftArrow = document.getElementById('leftArrow');
